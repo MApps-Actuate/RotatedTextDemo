@@ -1,0 +1,15 @@
+These are the directions for adding .jar files to the designer.  This follows best practices.
+
+
+Assuming you have BD Pro in C:\Actuate\BDPro, the following steps will give you the location to put plugins and ODA’s:
+
+1.       Create directory C:\Actuate\BDPro\eclipse\links
+2.       Copy both files in the links.zip file to the links directory (paths in the files are specific to your path).
+3.       Create directory C:\Actuate\BDPro\MyClasses\eclipse\plugins
+4.       Create directory C:\Actuate\BDPro\oda\eclipse\plugins
+
+If the designer was running, you’ll have to restart before this will take effect.  Obviously you’ll have to restart after adding plugins here.
+
+Thank you Rob Murphy !!
+ 
+ 

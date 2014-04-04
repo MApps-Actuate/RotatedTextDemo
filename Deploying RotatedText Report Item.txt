@@ -1,31 +1,23 @@
-To deploy the ODA to BRDPro:
+To deploy the Rotated Text jar files:
 
-copy both .jar file plugins to:
 
-MyClasses\eclipse\plugins
+Designer:	Copy both files to c:\Actuate\BDPro\MyClasses\eclipse\plugins
 
-folder under BRDPro install home directory. 
+ihub3: 		Copy just com.actuate.birt.labs.reportitem.rotatedtext_x to  (the one WITHOUT the .ui)
+			to C:\Actuate\iHub3\modules\BIRTiHub\iHub\MyClasses\eclipse\plugins   
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To deploy the ODA to iHub2:
 
-copy only the 'com.actuate.birt.labs.data.oda.twitter_1.1.0.v20130805.jar' file plugin to:
-
-iHub2\MyClasses\eclipse\plugins
-
-folder under the iHub2 install home directory.
-
+Designer:	Copy both files to c:\Actuate\MyClasses\eclipse\plugins
+ihub2:  	Copy only the 'com.actuate.birt.labs.reportitem.rotatedtext_x.jar' file plugin to:
+		    iHub2\MyClasses\eclipse\plugins
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To deploy the Twitter Dashboard to iHub:
+Restart designer and ihub service
 
-1. Publish 'TwitterODA.rptdesign' to the iHub into a folder called /Samples, assign appropriate permissions to VIEW and EXECUTE
-2. Publish 'Twitter Insight.dashboard' to the iHub into /Dashboard, assign appropriate permissions to VIEW and EXECUTE
-3. Login to Actuate Information Console, browse to /Dashboard folder and launch 'Twitter Insight.dashboard'
-
-NOTE! there's no profanity filter on this dashboard, choose search terms wisely when demo'ing! ;-)
-
-
-
+To deploy report.
+Create a folder called /Examples on the server if it does not yet exist 
+Deploy report to /Examples
